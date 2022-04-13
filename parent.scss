@@ -1,0 +1,6 @@
+/** using parent slector & to set color to red when the element has focus.
+*/
+#button{
+    color:black;
+    &:focus{color:red;}
+}

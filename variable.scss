@@ -1,0 +1,10 @@
+$font-stack:    Helvetica, sans-serif;
+// intializinmg varaibles 
+$primary-color: #000;
+
+
+body {
+    // importing variables 
+  font: 100% $font-stack;
+  color: $primary-color;
+}

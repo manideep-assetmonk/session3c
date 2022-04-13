@@ -1,0 +1,14 @@
+/**
+creating a rule for selector .push-button with background-color:blue.
+*/
+.push-button{
+    background-color:blue;
+}
+.mainbutton{
+    /**
+    mainbutton extend .push-button.
+    */
+    @extend .push-button;
+    font-weight: bold;
+
+}

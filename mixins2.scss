@@ -1,0 +1,18 @@
+/** The styles will appear at the location
+  of any @content directives found within the mixin.
+*/
+$Style:solid; 
+@mixin border-width($thickness) {
+    -webkit-border-width: $thickness;
+       -moz-border-width: $thickness;
+        -ms-border-width: $thickness;
+            border-width: $thickness;
+            @content;
+        
+  }
+  /**
+  mixin rule included for img element 
+  passing the border thickness  value 10px 
+  */
+
+  .img { @include border-width { border-style:$style };}

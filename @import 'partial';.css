@@ -1,0 +1,8 @@
+@import 'partial';
+/**
+importing partial css file
+*/
+body{
+    background-color:color;
+
+}

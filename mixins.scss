@@ -1,0 +1,14 @@
+/** mixin border that accepts a variable $thickness
+*/
+@mixin border-width($thickness) {
+    -webkit-border-width: $thickness;
+       -moz-border-width: $thickness;
+        -ms-border-width: $thickness;
+            border-width: $thickness;
+  }
+  /**
+  mixin rule included for img element 
+  passing the border thickness  value 10px 
+  */
+
+  .img { @include border-width(10px); }

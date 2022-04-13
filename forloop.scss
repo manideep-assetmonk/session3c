@@ -1,0 +1,7 @@
+/**
+changing the font-size in headings  by using forloop and arthematic operators.
+*/
+@for $i from 1 through 6{
+    h#{$i} { font-size: 24px-3px*$i}
+}
+

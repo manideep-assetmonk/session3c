@@ -1,0 +1,14 @@
+$page-width:1400px;
+/**
+intializing the variables with values
+*/
+$padding:20px;
+.container{
+    padding: $padding;
+    /**
+    * by using operators intializing the value of width
+    */
+    width:(0.8*($page-width))-2*$padding;
+
+
+}
